@@ -8,6 +8,7 @@
     "preview": "npm run build && http-server dist -og"
   },
   "devDependencies": {
+    "bootstrap": "^5.2.3",
     "css-loader": "^6.7.3",
     "http-server": "^14.1.1",
     "prismjs": "^1.29.0",
