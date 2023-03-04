@@ -23,3 +23,5 @@ npm start
 2. Open browser's console
 2. Make any change in any .scss file of the project
 2. Get error in console
+
+![error-image](https://user-images.githubusercontent.com/16610240/222920964-bf9c21de-702d-4734-bb97-22122c96eaa6.png)
