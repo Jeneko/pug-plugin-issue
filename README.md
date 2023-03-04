@@ -1,24 +1,25 @@
-# The simple example with multiple pages.
+# Pug-plugin issue
 
-## Clone & Install
+## Description
+
+When you add a script from modules (like so: `script(src=require('bootstrap/dist/js/bootstrap.bundle.js'))`) 
+and then when using webpack-dev-server you make changes in any .scss or .js file of the project you get this error in the browser's console:
+
+`Not allowed to load local resource: file:///E:/pug-plugin-issue/node_modules/bootstrap/dist/js/bootstrap.bundle.js`
+
+## How to reproduce
+
+1. Clone, install and start
 ```
-clone https://github.com/webdiscus/pug-plugin.git
-cd pug-plugin/examples/simple-multipage
+git clone https://github.com/jeneko/pug-plugin-issue
+
+cd pug-plugin-issue
 
 npm i
-```
 
-## Start development
-```
 npm start
 ```
-
-## Build production
-```
-npm run build
-```
-
-## Preview of `dist/` in browser
-```
-npm run preview
-```
+2. Open <a href="http://localhost:8080" target="_blank">localhost:8080</a> in your browser
+2. Open browser's console
+2. Make any change in any .scss file of the project
+2. Get error in console
