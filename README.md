@@ -1,4 +1,4 @@
-# Pug-plugin issue
+# Pug-plugin issue (fixed in v4.9.7)
 
 ## Description
 
